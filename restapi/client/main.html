@@ -1,0 +1,30 @@
+<head>
+  <title>restapi</title>
+</head>
+
+<body>
+  <h1>Rest Api Exercise</h1>
+
+ 
+  <script type="text/javascript">
+      $.getScript("jquery.js");
+      setTimeout(function () { $.getScript("notify.js"); }, 2500);
+
+     </script>
+</body>
+
+<template name="main">
+
+    <label for="txtPhone">Phone Number</label>
+    <input type="text" id="txtPhone" >
+    
+    <br />
+    <input id="checkBoxOver18" class="chkCheck" type="checkbox">
+    <label for="checkBoxOver18">I am over 18</label>
+    <br />
+    <input id="checkBoxOverAccept" class="chkCheck"  type="checkbox">
+    <label for="checkBoxOver18">I accept the terms and conditions</label><br />
+  <button class="btnSubmit" id="btnSubmit" disabled>Submit</button>
+</template>
+
+
